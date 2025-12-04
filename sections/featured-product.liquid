@@ -17,6 +17,16 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .section-{{ section.id }} .product__title {
+    text-align: center !important;
+    font-size: 35px !important;
+  }
+
+  .section-{{ section.id }} .product__info-wrapper .product__title {
+    text-align: center !important;
+    font-size: 35px !important;
+  }
 {%- endstyle -%}
 
 <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>

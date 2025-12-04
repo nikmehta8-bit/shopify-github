@@ -15,7 +15,7 @@
         "template--20900572463426__3d7caeef-c6d6-4ae6-91de-d2e288f4fb49-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/3.jpg",
+            "image": "shopify://shop_images/cosmetic_59c63a8b-6c60-4235-ab71-64d7168bb689.png",
             "heading": "Looto sale",
             "heading_size": "h1",
             "subheading": "All Product have 50% discount",
@@ -33,7 +33,7 @@
         "template--20900572463426__3d7caeef-c6d6-4ae6-91de-d2e288f4fb49-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/2_1.jpg",
+            "image": "shopify://shop_images/sale_t-shirt.jpg",
             "heading": "Looto sale",
             "heading_size": "h1",
             "subheading": "All product are 50% discount..",
@@ -51,7 +51,7 @@
         "0f2dae42-87c6-4471-90d6-717f9fe150f7": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/3.jpg",
+            "image": "shopify://shop_images/hair_shampoo.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -106,74 +106,6 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_product_rw6EE3": {
-      "type": "featured-product",
-      "blocks": {
-        "text_8DXzY8": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_8iiLV9": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_G7LNEe": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker_jx78rw": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector_Edy6nk": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_grexbE": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "share_3jkKnp": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "text_8DXzY8",
-        "title_8iiLV9",
-        "price_G7LNEe",
-        "variant_picker_jx78rw",
-        "quantity_selector_Edy6nk",
-        "buy_buttons_grexbE",
-        "share_3jkKnp"
-      ],
-      "name": "t:sections.featured-product.presets.name",
-      "settings": {
-        "product": "",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": false,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -294,7 +226,6 @@
   "order": [
     "3d7caeef-c6d6-4ae6-91de-d2e288f4fb49",
     "featured_collection",
-    "featured_product_rw6EE3",
     "38cdf60f-e431-43b5-aac3-7e6215447d67",
     "f1552b18-6017-4231-810d-74e61da22c37",
     "d247fac8-7059-4ea2-a97c-4aea021eab28",
