@@ -221,6 +221,74 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "featured_product_cmAPXe": {
+      "type": "featured-product",
+      "blocks": {
+        "text_9gBdr4": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_3KBeEH": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_kXxbAD": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_36Bgkr": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_wxzxMt": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_nYLe3T": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share_9dJUNm": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_9gBdr4",
+        "title_3KBeEH",
+        "price_kXxbAD",
+        "variant_picker_36Bgkr",
+        "quantity_selector_wxzxMt",
+        "buy_buttons_nYLe3T",
+        "share_9dJUNm"
+      ],
+      "name": "t:sections.featured-product.presets.name",
+      "settings": {
+        "product": "",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -229,6 +297,7 @@
     "38cdf60f-e431-43b5-aac3-7e6215447d67",
     "f1552b18-6017-4231-810d-74e61da22c37",
     "d247fac8-7059-4ea2-a97c-4aea021eab28",
-    "170843555278f4e659"
+    "170843555278f4e659",
+    "featured_product_cmAPXe"
   ]
 }
