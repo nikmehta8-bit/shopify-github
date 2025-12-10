@@ -13,6 +13,20 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "announcement_zU4GTh": {
+          "type": "announcement",
+          "settings": {
+            "text": "welcome to my store",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_zU4GTh"
+      ],
       "settings": {}
     },
     "header": {
