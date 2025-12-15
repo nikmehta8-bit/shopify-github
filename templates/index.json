@@ -99,7 +99,7 @@
         "view_all_style": "outline",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
