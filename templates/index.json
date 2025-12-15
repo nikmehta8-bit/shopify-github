@@ -16,14 +16,14 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/1_1.png",
-            "heading": "Looto sale",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "All Product have 50% discount",
-            "button_label": "Shop Now",
+            "subheading": "",
+            "button_label": "",
             "link": "shopify://products/the-hidden-snowboard",
             "button_style_secondary": false,
             "box_align": "middle-left",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "accent-1",
@@ -32,6 +32,7 @@
         },
         "template--20900572463426__3d7caeef-c6d6-4ae6-91de-d2e288f4fb49-slide-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/sale_t-shirt.jpg",
             "heading": "Looto sale",
@@ -50,6 +51,7 @@
         },
         "0f2dae42-87c6-4471-90d6-717f9fe150f7": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/hair_shampoo.jpg",
             "heading": "Image slide",
