@@ -183,6 +183,7 @@
         "template--20936156676418__1e27178a-c21b-4956-ac5c-92ed2a5ed22e-text-1",
         "template--20936156676418__1e27178a-c21b-4956-ac5c-92ed2a5ed22e-buttons-1"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 0,
         "image_height": "medium",
