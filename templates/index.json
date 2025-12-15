@@ -15,7 +15,7 @@
         "template--20900572463426__3d7caeef-c6d6-4ae6-91de-d2e288f4fb49-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/cosmetic_59c63a8b-6c60-4235-ab71-64d7168bb689.png",
+            "image": "shopify://shop_images/1_1.png",
             "heading": "Looto sale",
             "heading_size": "h1",
             "subheading": "All Product have 50% discount",
@@ -73,7 +73,7 @@
         "0f2dae42-87c6-4471-90d6-717f9fe150f7"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "counter",
         "auto_rotate": false,
