@@ -5,3 +5,14 @@
 .header {
     text-align:center;
 }
+
+.collection .title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.collection  .card-title  {
+    font-size: 16px;
+}
+
