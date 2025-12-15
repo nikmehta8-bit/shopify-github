@@ -89,7 +89,7 @@
         "title": "Our Best Picks",
         "heading_size": "h2",
         "description": "",
-        "show_description": true,
+        "show_description": false,
         "description_style": "subtitle",
         "collection": "automated-collection",
         "products_to_show": 11,
