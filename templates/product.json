@@ -66,7 +66,7 @@
         "0d752ad8-60cd-46ac-b0b0-86c77cbb4f55": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{product.metafields.custom.multi_line_discription}}"
+            "custom_liquid": "<style>\n  .product-form__buttons {\n    display: flex;\n    gap: 1rem;\n  }\n  .product-form__buttons button[type=\"submit\"],\n  .product-form__buttons .shopify-payment-button {\n    width: 50%;\n  }\n</style>"
           }
         }
       },
