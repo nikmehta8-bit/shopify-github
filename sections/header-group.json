@@ -17,7 +17,7 @@
         "announcement_zU4GTh": {
           "type": "announcement",
           "settings": {
-            "text": "Buy 2, get 1 for free during our launching event ♡",
+            "text": "welcome to my store",
             "text_alignment": "center",
             "color_scheme": "accent-1",
             "link": ""
@@ -51,7 +51,6 @@
     },
     "a75e3760-3c87-4c43-a91d-c1b737a0ae19": {
       "type": "custom-liquid",
-      "disabled": true,
       "custom_css": [
         "h2 {color: pink;}"
       ],
