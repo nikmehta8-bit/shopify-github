@@ -14,6 +14,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.custom.text1.value }}This is  AWESOME PRODUCT",
             "text_style": "body"
@@ -21,6 +22,10 @@
         },
         "title": {
           "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
           "settings": {}
         },
         "variant_picker": {
@@ -34,10 +39,6 @@
           "disabled": true,
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -47,6 +48,7 @@
         },
         "aa1b82fb-4cef-4522-93a4-ee3282155414": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>{{ product.metafields.custom.single_line.value }}</strong>",
             "text_style": "body"
@@ -73,9 +75,9 @@
       "block_order": [
         "vendor",
         "title",
+        "price",
         "variant_picker",
         "quantity_selector",
-        "price",
         "buy_buttons",
         "aa1b82fb-4cef-4522-93a4-ee3282155414",
         "description",
@@ -87,10 +89,10 @@
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "none",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 52,
