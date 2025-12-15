@@ -88,8 +88,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "<em><strong>Product</strong></em>",
-        "heading_size": "h1",
+        "title": "Fashion meets brands",
+        "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "subtitle",
