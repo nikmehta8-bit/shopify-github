@@ -2,6 +2,10 @@
     background: #f9ec31;
 }
 
+.announcement-bar, .announcement-bar-section, .announcement-bar__message, .announcement-bar__message p {
+    color: #000 !important;
+}
+
 .header {
     text-align:center;
 }
