@@ -86,8 +86,8 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Our Best Picks",
-        "heading_size": "h2",
+        "title": "<em><strong>Product</strong></em>",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "subtitle",
