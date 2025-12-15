@@ -12,16 +12,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {}
-        },
         "vendor": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.custom.text1.value }}This is  AWESOME PRODUCT",
             "text_style": "body"
           }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -66,13 +66,13 @@
         "0d752ad8-60cd-46ac-b0b0-86c77cbb4f55": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{{product.metafields.custom.multi_line_discription}}"
+            "custom_liquid": "<div class=\"metafield-display\">\n  {% if product.metafields.custom %}\n    <div class=\"metafield-section\">\n      {% if product.metafields.custom.text1 %}\n        <div class=\"metafield-item\">\n          <strong>Product Info:</strong> {{ product.metafields.custom.text1.value }}\n        </div>\n      {% endif %}\n      {% if product.metafields.custom.single_line %}\n        <div class=\"metafield-item\">\n          <strong>Details:</strong> {{ product.metafields.custom.single_line.value }}\n        </div>\n      {% endif %}\n      {% if product.metafields.custom.description %}\n        <div class=\"metafield-item\">\n          <strong>Custom Description:</strong> {{ product.metafields.custom.description.value }}\n        </div>\n      {% endif %}\n      {% if product.metafields.custom.specifications %}\n        <div class=\"metafield-item\">\n          <strong>Specifications:</strong> {{ product.metafields.custom.specifications.value }}\n        </div>\n      {% endif %}\n    </div>\n  {% endif %}\n</div>\n<style>\n  .metafield-display {\n    margin: 20px 0;\n  }\n  .metafield-section {\n    padding: 15px;\n    background-color: #f5f5f5;\n    border-radius: 4px;\n  }\n  .metafield-item {\n    margin-bottom: 12px;\n    line-height: 1.6;\n  }\n  .metafield-item:last-child {\n    margin-bottom: 0;\n  }\n</style>"
           }
         }
       },
       "block_order": [
-        "title",
         "vendor",
+        "title",
         "variant_picker",
         "quantity_selector",
         "price",
