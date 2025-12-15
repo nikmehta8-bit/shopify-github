@@ -192,6 +192,7 @@
     },
     "d247fac8-7059-4ea2-a97c-4aea021eab28": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h1",
@@ -276,6 +277,7 @@
         "buy_buttons_nYLe3T",
         "share_9dJUNm"
       ],
+      "disabled": true,
       "name": "t:sections.featured-product.presets.name",
       "settings": {
         "product": "",
@@ -291,6 +293,34 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_collection_cnmktm": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "Discover Our Range",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "beauty-wow",
+        "products_to_show": 3,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -300,6 +330,7 @@
     "f1552b18-6017-4231-810d-74e61da22c37",
     "d247fac8-7059-4ea2-a97c-4aea021eab28",
     "170843555278f4e659",
-    "featured_product_cmAPXe"
+    "featured_product_cmAPXe",
+    "featured_collection_cnmktm"
   ]
 }
